@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\Project\QLBHLD.Data\bin\Debug\QLBHLD.Data.dll.config
+C:\Users\admin\Desktop\Project\QLBHLD.Data\bin\Debug\QLBHLD.Data.dll
+C:\Users\admin\Desktop\Project\QLBHLD.Data\bin\Debug\QLBHLD.Data.pdb
+C:\Users\admin\Desktop\Project\QLBHLD.Data\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\Project\QLBHLD.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Project\QLBHLD.Data\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\Project\QLBHLD.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Project\QLBHLD.Data\obj\Debug\QLBHLD.Data.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Project\QLBHLD.Data\obj\Debug\QLBHLD.Data.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Project\QLBHLD.Data\obj\Debug\QLBHLD.Data.csproj.CopyComplete
+C:\Users\admin\Desktop\Project\QLBHLD.Data\obj\Debug\QLBHLD.Data.dll
+C:\Users\admin\Desktop\Project\QLBHLD.Data\obj\Debug\QLBHLD.Data.pdb

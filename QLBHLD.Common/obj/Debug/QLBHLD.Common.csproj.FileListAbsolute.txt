@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\Project\QLBHLD.Common\bin\Debug\QLBHLD.Common.dll
+C:\Users\admin\Desktop\Project\QLBHLD.Common\bin\Debug\QLBHLD.Common.pdb
+C:\Users\admin\Desktop\Project\QLBHLD.Common\obj\Debug\QLBHLD.Common.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Project\QLBHLD.Common\obj\Debug\QLBHLD.Common.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Project\QLBHLD.Common\obj\Debug\QLBHLD.Common.dll
+C:\Users\admin\Desktop\Project\QLBHLD.Common\obj\Debug\QLBHLD.Common.pdb

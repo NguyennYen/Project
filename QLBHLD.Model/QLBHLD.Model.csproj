@@ -51,7 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\Auditable.cs" />
+    <Compile Include="Abstract\IAuditable.cs" />
+    <Compile Include="Models\Districts.cs" />
+    <Compile Include="Models\List_type.cs" />
+    <Compile Include="Models\Nationalities.cs" />
+    <Compile Include="Models\OtherListType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\LaborProtection.cs" />
+    <Compile Include="Models\ProtectionShoesSize.cs" />
+    <Compile Include="Models\ProtectionSize.cs" />
+    <Compile Include="Models\Province.cs" />
+    <Compile Include="Models\Titles.cs" />
+    <Compile Include="Models\Wards.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
