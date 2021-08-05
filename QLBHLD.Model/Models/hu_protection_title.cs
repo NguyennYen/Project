@@ -7,30 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QLBHLD.Model
+namespace QLBHLD.Model.Models
 {
-    [Table("Provinces")]
-    public class OtherListType : Auditable
+    [Table("hu_protection_title")]
+    public class hu_protection_title : Auditable
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
-
         [Required]
-        [StringLength(50)]
-        public string code { get; set; }
-
+        [ForeignKey("title_id")]
+        public virtual hu_tille fk_hu_title  { get; set; }
         [Required]
-        [StringLength(255)]
-        public string name { get; set; }
-
+        public DateTime effect_date { get; set; }
         [Required]
-        public int type_id { get; set; }
-
-        [ForeignKey("type_id")]
-        public virtual List_type List_Type { get; set; }
-
-       
+        public DateTime expire_date { get; set; }
         [StringLength(1023)]
         public string remark { get; set; }
+        
+
     }
 }
