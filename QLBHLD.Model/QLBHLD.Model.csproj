@@ -53,21 +53,17 @@
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="Models\hu_employee.cs" />
-    <Compile Include="Models\hu_employee_cv.cs" />
-    <Compile Include="Models\hu_protection_emp.cs" />
-    <Compile Include="Models\hu_protection_emp_setting.cs" />
-    <Compile Include="Models\hu_protection_title.cs" />
-    <Compile Include="Models\hu_protection_title_setting.cs" />
-    <Compile Include="Models\se_function.cs" />
-    <Compile Include="Models\se_function_group.cs" />
-    <Compile Include="Models\se_report.cs" />
-    <Compile Include="Models\se_user.cs" />
-    <Compile Include="Models\se_user_org_access.cs" />
-    <Compile Include="Models\se_user_permission.cs" />
-    <Compile Include="Models\se_user_report.cs" />
-    <Compile Include="Models\synthetic.cs" />
+    <Compile Include="Models\Districts.cs" />
+    <Compile Include="Models\List_type.cs" />
+    <Compile Include="Models\Nationalities.cs" />
+    <Compile Include="Models\OtherListType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\LaborProtection.cs" />
+    <Compile Include="Models\ProtectionShoesSize.cs" />
+    <Compile Include="Models\ProtectionSize.cs" />
+    <Compile Include="Models\Province.cs" />
+    <Compile Include="Models\Titles.cs" />
+    <Compile Include="Models\Wards.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
