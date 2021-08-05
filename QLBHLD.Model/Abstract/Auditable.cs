@@ -20,6 +20,9 @@ namespace QLBHLD.Model.Abstract
         [StringLength(255)]
         public string created_log { get; set; }
 
-       public DateTime? modified_date { get; set; }
+        public DateTime? modified_date { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

@@ -40,6 +40,7 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -53,17 +54,21 @@
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="Models\Districts.cs" />
-    <Compile Include="Models\List_type.cs" />
-    <Compile Include="Models\Nationalities.cs" />
-    <Compile Include="Models\OtherListType.cs" />
+    <Compile Include="Models\hu_district.cs" />
+    <Compile Include="Models\hu_nation.cs" />
+    <Compile Include="Models\hu_organization.cs" />
+    <Compile Include="Models\hu_org_title.cs" />
+    <Compile Include="Models\hu_protection.cs" />
+    <Compile Include="Models\hu_protection_setting.cs" />
+    <Compile Include="Models\hu_protection_size.cs" />
+    <Compile Include="Models\hu_province.cs" />
+    <Compile Include="Models\hu_shoes_setting.cs" />
+    <Compile Include="Models\hu_shoes_size.cs" />
+    <Compile Include="Models\hu_title.cs" />
+    <Compile Include="Models\hu_ward.cs" />
+    <Compile Include="Models\ot_other_list.cs" />
+    <Compile Include="Models\ot_other_list_type.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\LaborProtection.cs" />
-    <Compile Include="Models\ProtectionShoesSize.cs" />
-    <Compile Include="Models\ProtectionSize.cs" />
-    <Compile Include="Models\Province.cs" />
-    <Compile Include="Models\Titles.cs" />
-    <Compile Include="Models\Wards.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
