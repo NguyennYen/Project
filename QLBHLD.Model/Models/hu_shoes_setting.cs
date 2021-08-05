@@ -26,5 +26,8 @@ namespace QLBHLD.Model.Models
         //shoes size 
         [ForeignKey("size_id")]
         public int size_id { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

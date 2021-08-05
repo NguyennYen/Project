@@ -21,5 +21,8 @@ namespace QLBHLD.Model.Models
 
         [StringLength(255)]
         public string name { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

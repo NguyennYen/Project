@@ -24,5 +24,8 @@ namespace QLBHLD.Model.Models
         //eg: 36,37,38,...
         [StringLength(255)]
         public string size_name { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

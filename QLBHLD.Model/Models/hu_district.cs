@@ -24,5 +24,9 @@ namespace QLBHLD.Model.Models
 
         //[ForeignKey("province_id")]
         public int province_id { get; set; }
+
+        //ghi chú
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

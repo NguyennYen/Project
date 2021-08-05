@@ -22,7 +22,6 @@ namespace QLBHLD.Model.Abstract
 
         public DateTime? modified_date { get; set; }
 
-        [StringLength(1023)]
-        public string remark { get; set; }
+        
     }
 }

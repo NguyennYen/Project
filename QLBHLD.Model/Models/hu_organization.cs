@@ -29,5 +29,8 @@ namespace QLBHLD.Model.Models
         
         //sort by display order
         public int org_no { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

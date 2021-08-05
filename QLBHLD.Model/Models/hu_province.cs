@@ -25,5 +25,8 @@ namespace QLBHLD.Model.Models
         //Mã quốc gia
         //[ForeignKey("nation_id")]
         public int nation_id { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

@@ -17,6 +17,7 @@ namespace QLBHLD.Model.Models
         public int id { get; set; }
 
         //mã đơn vị
+        //
         public int org_id { get; set; }
 
         //chức danh theo đơn vị

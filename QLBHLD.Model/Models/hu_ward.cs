@@ -26,5 +26,8 @@ namespace QLBHLD.Model.Models
         //mã quận huyện
         //[ForeignKey("province_id")]
         public int district_id { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

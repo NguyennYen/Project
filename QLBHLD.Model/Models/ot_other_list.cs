@@ -16,6 +16,7 @@ namespace QLBHLD.Model.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
 
+
         [StringLength(50)]
         public string code { get; set; }
 
@@ -29,5 +30,8 @@ namespace QLBHLD.Model.Models
         //tham chiếu phần other_list_type
         //[ForeignKey("type_id")]
         public int type_id { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

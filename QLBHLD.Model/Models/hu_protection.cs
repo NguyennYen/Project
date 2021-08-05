@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace QLBHLD.Model.Models
 {
     [Table("hu_protection")]
-    public class hu_protection : Auditable 
+    public class hu_protection : Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -23,5 +23,8 @@ namespace QLBHLD.Model.Models
         //Tên bảo hộ
         [StringLength(255)]
         public string protection_name { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
 }

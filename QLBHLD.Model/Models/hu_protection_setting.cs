@@ -30,5 +30,9 @@ namespace QLBHLD.Model.Models
         //size of Protection Gear
         [ForeignKey("size_id")]
         public int size_id { get; set; }
+
+        [StringLength(1023)]
+        public string remark { get; set; }
     }
+
 }
